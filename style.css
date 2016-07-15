@@ -36,7 +36,7 @@
   animation: movesquareformation 5s infinite;
 }
 
-@keyframe movesquareformation {
+@keyframes movesquareformation {
   0% {
     top: 400px;
     left: 0px;
@@ -57,4 +57,10 @@
     top: 500px;
     left: 100px;
   }
+}
+
+#layer_1 {
+  position: relative;
+  height: 200px !important;
+  
 }
