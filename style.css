@@ -1,0 +1,23 @@
+.box {
+  background: #44f;
+  height: 20px;
+  width: 600px;
+  position: relative;
+  /*the code below: grow is an arbitrary word. think of it like a variable*/
+  animation: grow 4s infinite;
+}
+
+@keyframes grow {
+  /*0% is where it starts */
+  0% {
+    top: 0px;
+    width: 300px;
+    background: red;
+  }
+  /*50% of the 4 seconds we declared above*/
+  50% {
+    top: 100px;
+    width: 500px;
+    
+  }
+}
