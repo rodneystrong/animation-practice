@@ -26,3 +26,35 @@
     background: yellow;
   }
 }
+
+.box2 {
+  background: purple;
+  height: 50px;
+  width: 50px;
+  top: 400px;
+  position: relative;
+  animation: movesquareformation 5s infinite;
+}
+
+@keyframe movesquareformation {
+  0% {
+    top: 400px;
+    left: 0px;
+  }
+  25% {
+    top: 400px;
+    left: 200px;
+  }
+  50% {
+    top: 500px;
+    left: 200px;
+  }
+  75% {
+    top: 500px;
+    left: 0px;
+  }
+  100% {
+    top: 500px;
+    left: 100px;
+  }
+}
